@@ -12,7 +12,7 @@ st.title('Dashboard Penyewaan Sepeda Berdasarkan Musim dan Cuaca')
 # Memuat dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv('../data/day.csv')
+    return pd.read_csv('./data/day.csv')
 
 day_df = load_data()
 
