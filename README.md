@@ -1,12 +1,12 @@
 # submission
 
 ## Setup Shell/Terminal
-```
-mkdir submission
-cd submission
-pipreqs --force
-```
+
+pip install pipenv
+pipenv install
+pipenv shell
+pipenv run pip install -r requirements.txt
+
 ## Run dashboard using the streamlit app
-```
-streamlit run app.py
-```
+
+streamlit run dashboard/dashboard.py
